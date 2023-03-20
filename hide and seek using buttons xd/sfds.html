@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <body>
+        <div class="main">
+            <div class="conteiner">
+                <img class="photo"
+                    src="https://decider.com/wp-content/uploads/2019/04/daenerys-mean-girl-face-game-of-thrones.jpg?quality=75&strip=all&w=720&h=480&crop=1" />
+                <p class="text1">Improve your front-end skills by building projects</p>
+                <p class="text2">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+                </p>
+                <button class="but1" onmouseover="lasha()" onmouseout="lasha1()" id="demo1">button1</button>
+                <button class="but2" onmouseover="lasha3()" onmouseout="lasha2()" id="demo2">button2</button>
+            </div>
+        </div>
+        <script>
+            function lasha() {
+                document.getElementById("demo1").style.display = "none";
+            }
+            function lasha1() {
+                document.getElementById("demo1").style.display = "inline";
+            }
+            function lasha3() {
+                document.getElementById("demo2").style.display = "none";
+            }
+            function lasha2() {
+                document.getElementById("demo2").style.display = "inline";
+            }
+        </script>
+    </body>
+
+</html>
